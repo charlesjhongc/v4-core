@@ -29,5 +29,7 @@ jobs:
         with:
           version: nightly
 
+      - name: Format
+        run: yarn prettier
       - name: Compile
         run: yarn prettier-check
